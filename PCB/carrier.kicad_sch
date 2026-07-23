@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "f52509e6-8053-454c-b8e9-3e2670c5a5fe")
 	(paper "A4")
 	(title_block
@@ -21,11 +21,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "23620a0b-1ad0-4687-9f88-c9a273d596b9")
 		(property "Sheetname" "Damping Resistors"
 			(at 71.12 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,6 +37,8 @@
 		)
 		(property "Sheetfile" "damping-resistors.kicad_sch"
 			(at 71.12 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63,11 +67,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7b90d14f-4142-447b-ad6a-0ca28adbd057")
 		(property "Sheetname" "Level Shifting"
 			(at 71.12 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,6 +83,8 @@
 		)
 		(property "Sheetfile" "level-shifting.kicad_sch"
 			(at 71.12 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105,11 +113,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "9924afb8-28d2-4519-98a2-71323cd667d5")
 		(property "Sheetname" "Carrier SO-DIMM"
 			(at 24.13 121.2084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119,6 +129,8 @@
 		)
 		(property "Sheetfile" "SO-DIMM.kicad_sch"
 			(at 24.13 160.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -147,11 +159,13 @@
 			(color 132 0 132 1)
 		)
 		(fill
-			(color 255 255 255 0.0000)
+			(color 255 255 255 0)
 		)
 		(uuid "caa71f4c-454d-4ac9-b287-456eafb34991")
 		(property "Sheetname" "CM4 High Speed"
 			(at 24.13 73.0245 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,6 +175,8 @@
 		)
 		(property "Sheetfile" "cm4-high-speed.kicad_sch"
 			(at 24.13 112.2685 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -189,11 +205,13 @@
 			(color 132 0 132 1)
 		)
 		(fill
-			(color 255 255 255 0.0000)
+			(color 255 255 255 0)
 		)
 		(uuid "fc4c71a5-1008-4ac4-98db-57c838c57d91")
 		(property "Sheetname" "CM4 GPIO"
 			(at 24.13 24.7645 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,6 +221,8 @@
 		)
 		(property "Sheetfile" "cm4-gpio.kicad_sch"
 			(at 24.13 64.0085 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
