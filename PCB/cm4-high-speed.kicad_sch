@@ -8,7 +8,7 @@
 		(title "CM4/CM5 Carrier Board")
 	)
 	(lib_symbols
-		(symbol "kai-library:Mezzanine_B"
+		(symbol "CM4IO:Mezzanine_B"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kai's library:Raspberry-Pi-4-Compute-Module-B"
+			(property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module-B"
 				(at 142.24 -26.67 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -77,7 +77,7 @@
 					)
 				)
 			)
-			(property "MPN" "2x DF40C-100DS-0.4V"
+			(property "MPN" "2x DF40HC(3.0)-100DS-0.4V"
 				(at 0.762 71.628 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -87,7 +87,7 @@
 					)
 				)
 			)
-			(property "Digi-Key_PN" "2x H11615CT-ND"
+			(property "Digi-Key_PN" "2x H124602CT-ND"
 				(at 0.508 59.944 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -98,7 +98,7 @@
 					)
 				)
 			)
-			(property "MPN (Alt)" "2x DF40HC(3.0)-100DS-0.4V"
+			(property "MPN (Alt)" "2x DF40C-100DS-0.4V"
 				(at 0.762 69.088 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -108,7 +108,7 @@
 					)
 				)
 			)
-			(property "Digi-Key_PN (Alt)" "2x H124602CT-ND"
+			(property "Digi-Key_PN (Alt)" "2x H11615CT-ND"
 				(at 0.508 61.976 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5496,7 +5496,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kai-library:Mezzanine_B")
+		(lib_id "CM4IO:Mezzanine_B")
 		(at 137.16 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -5526,7 +5526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kai's library:Raspberry-Pi-4-Compute-Module-B"
+		(property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module-B"
 			(at 279.4 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5569,7 +5569,7 @@
 				)
 			)
 		)
-		(property "MPN" "2x DF40C-100DS-0.4V"
+		(property "MPN" "2x DF40HC(3.0)-100DS-0.4V"
 			(at 137.922 23.622 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5579,7 +5579,7 @@
 				)
 			)
 		)
-		(property "Digi-Key_PN" "2x H11615CT-ND"
+		(property "Digi-Key_PN" "2x H124602CT-ND"
 			(at 137.668 35.306 0)
 			(hide yes)
 			(show_name no)
@@ -5590,7 +5590,7 @@
 				)
 			)
 		)
-		(property "MPN (Alt)" "2x DF40HC(3.0)-100DS-0.4V"
+		(property "MPN (Alt)" "2x DF40C-100DS-0.4V"
 			(at 137.922 26.162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5600,7 +5600,7 @@
 				)
 			)
 		)
-		(property "Digi-Key_PN (Alt)" "2x H124602CT-ND"
+		(property "Digi-Key_PN (Alt)" "2x H11615CT-ND"
 			(at 137.668 33.274 0)
 			(hide yes)
 			(show_name no)

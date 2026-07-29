@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
+			(property "Footprint" "CM4IO:SODIMM_DDR4_EDGE"
 				(at 53.34 21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4895,7 +4895,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
+			(property "Footprint" "CM4IO:SODIMM_DDR4_EDGE"
 				(at 53.34 21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9759,7 +9759,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
+			(property "Footprint" "CM4IO:SODIMM_DDR4_EDGE"
 				(at 53.34 21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -14623,7 +14623,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
+			(property "Footprint" "CM4IO:SODIMM_DDR4_EDGE"
 				(at 53.34 21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -19487,7 +19487,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
+			(property "Footprint" "CM4IO:SODIMM_DDR4_EDGE"
 				(at 53.34 21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -24351,7 +24351,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
+			(property "Footprint" "CM4IO:SODIMM_DDR4_EDGE"
 				(at 53.34 21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -29215,7 +29215,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
+			(property "Footprint" "CM4IO:SODIMM_DDR4_EDGE"
 				(at 53.34 21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -42331,7 +42331,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
+		(property "Footprint" "CM4IO:SODIMM_DDR4_EDGE"
 			(at 396.24 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -43186,7 +43186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
+		(property "Footprint" "CM4IO:SODIMM_DDR4_EDGE"
 			(at 147.32 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -44040,7 +44040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
+		(property "Footprint" "CM4IO:SODIMM_DDR4_EDGE"
 			(at 229.87 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -44973,7 +44973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
+		(property "Footprint" "CM4IO:SODIMM_DDR4_EDGE"
 			(at 312.42 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -45906,7 +45906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
+		(property "Footprint" "CM4IO:SODIMM_DDR4_EDGE"
 			(at 130.81 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -46761,7 +46761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
+		(property "Footprint" "CM4IO:SODIMM_DDR4_EDGE"
 			(at 394.97 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -48006,7 +48006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
+		(property "Footprint" "CM4IO:SODIMM_DDR4_EDGE"
 			(at 276.86 156.21 0)
 			(hide yes)
 			(show_name no)
