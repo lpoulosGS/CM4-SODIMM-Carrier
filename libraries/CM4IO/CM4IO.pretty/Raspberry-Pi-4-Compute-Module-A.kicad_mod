@@ -123,7 +123,7 @@
       (solder_mask_margin 1.7) (clearance 1.7) (tstamp 0e9ff0ab-be9a-410e-83d3-560aabe41a96))
   (pad "" np_thru_hole circle (at 0 -48) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask)
       (solder_mask_margin 1.7) (clearance 1.7) (tstamp c2c1d247-2c20-4b1e-a5d1-8d71cf195ab3))
-  (model "./CM4.3dshapes/DF40C-100DS.stp"
+  (model "${KICAD10_3DMODEL_DIR}/Connector_Hirose_DF40.3dshapes/Hirose_DF40HC(3.0)-100DS-0.4V_2x50_P0.4mm.step"
       (offset (xyz -0.46 15.38 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
