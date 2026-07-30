@@ -11800,7 +11800,7 @@
 	(footprint "CM4IO:Raspberry-Pi-4-Compute-Module-B"
 		(layer "F.Cu")
 		(uuid "7cc39c3f-849b-4fe9-8b8d-6f297b2c809b")
-		(at 196.75 113.71)
+		(at 178 131)
 		(descr "Raspberry Pi CM4 mezzanine connector B (J2, DF40C-100DS) - split from combined footprint, verify against datasheet before fab")
 		(tags "Raspberry Pi CM4 mezzanine connector B (J2, DF40C-100DS) - split from combined footprint, verify against datasheet before fab")
 		(property "Reference" "Module1"
@@ -17921,7 +17921,7 @@
 	(footprint "CM4IO:SODIMM_DDR4_EDGE"
 		(layer "F.Cu")
 		(uuid "99d73997-4a52-4f0e-807c-22fe2ab27ea0")
-		(at 196.75 58.9)
+		(at 159.825 34.3)
 		(descr "DDR4 SODIMM 260-pin card edge (gold finger) footprint, converted from legacy KiCad v4 source - VERIFY against JEDEC MO-310 / connector datasheet before fab")
 		(tags "SODIMM DDR4 260 edge connector card edge")
 		(property "Reference" "J1"
@@ -32167,7 +32167,7 @@
 	(footprint "CM4IO:Raspberry-Pi-4-Compute-Module-A"
 		(layer "F.Cu")
 		(uuid "e9d8ddd1-af5f-4d74-9280-a2a6ef5aec78")
-		(at 239.87 113.71)
+		(at 241.535 100.5)
 		(descr "Raspberry Pi CM4 mezzanine connector A (J1, DF40C-100DS) - split from combined footprint, verify against datasheet before fab")
 		(tags "Raspberry Pi CM4 mezzanine connector A (J1, DF40C-100DS) - split from combined footprint, verify against datasheet before fab")
 		(property "Reference" "Module2"
