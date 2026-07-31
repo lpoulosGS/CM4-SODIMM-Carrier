@@ -1,0 +1,27 @@
+(version 1)
+
+# GbE differential pairs: keep P/N skew-matched within each pair (applies to
+# all 4 pairs at once - KiCad identifies each _P/_N pair automatically within
+# the netclass, no need for one rule per pair).
+# 0.25mm (~10 mil) is the commonly-cited 1000BASE-T MDI intra-pair skew
+# tolerance (PHY vendor guidance; exceeding it eats into the PHY's echo
+# canceller adaptation margin). Some references allow up to 20 mil (0.5mm) as
+# an absolute max - 0.25mm gives real margin under that ceiling.
+(rule "GbE intra-pair skew (1000BASE-T spec)"
+	(condition "A.hasNetclass('GbE')")
+	(constraint skew (max 0.25mm) (within_diff_pairs))
+)
+
+# GbE differential pairs: keep all 4 pairs matched to each other so the whole
+# bus arrives at the SODIMM edge connector together.
+# IEEE 802.3 doesn't set a PCB-only inter-pair skew number (its 50ns figure
+# covers the full 100m cable channel, not board-level routing); common PHY
+# vendor reference designs use ~330ps as a practical inter-pair budget, which
+# is roughly 50mm of FR4 trace length at typical propagation speed - far
+# looser than needed at this board's scale. Window below is centered on the
+# longest currently-routed pair (GBE_MDI3, ~50.19mm) with a tight 1mm margin,
+# well inside the real spec budget.
+(rule "GbE inter-pair length match"
+	(condition "A.hasNetclass('GbE')")
+	(constraint length (min 49.7mm) (max 50.7mm))
+)
