@@ -229,9 +229,9 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
-        0.5,
-        0.75
+        0.127,
+        0.254,
+        1.27
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -503,7 +503,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -538,7 +538,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 5.31,
+        "track_width": 0.127,
         "tuning_profile": "",
         "wire_width": 6
       },
@@ -546,7 +546,7 @@
         "name": "CAN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgb(180, 0, 174)",
+        "schematic_color": "rgb(180, 175, 0)",
         "tuning_profile": ""
       },
       {
@@ -1118,7 +1118,7 @@
         "uuid": "f52509e6-8053-454c-b8e9-3e2670c5a5fe"
       }
     ],
-    "used_designators": "D1-4,#PWR1-16,#PWR21,#PWR23-28,#PWR30-31,#PWR38-52,#PWR103-124,R1,R10-25,R28,R62-76,Module1-3,J1-3,C1-12,C14,C16-17,C20-28,SD_PWR1,Q2-9,SW1-2,TP1-4,U1,U4-5,Y1",
+    "used_designators": "D1-4,#PWR1-16,#PWR21,#PWR23-28,#PWR30-31,#PWR38-52,#PWR103-124,R1-2,R5-7,R10-25,R28-30,R62-76,Module1-3,J1-3,C1-12,C14,C16-17,C20-36,SD_PWR1,Q2-9,SW1-2,TP1-4,U1,U3-5,Y1-3",
     "variants": []
   },
   "sheets": [
@@ -1149,6 +1149,10 @@
     [
       "23620a0b-1ad0-4687-9f88-c9a273d596b9",
       "Damping Resistors"
+    ],
+    [
+      "a1c8faa5-68de-4934-8c16-46bbec90804e",
+      "CAMPHY"
     ]
   ],
   "text_variables": {},

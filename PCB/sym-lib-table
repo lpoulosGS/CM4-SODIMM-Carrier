@@ -4,4 +4,5 @@
   (lib (name "SODIMM")(type "KiCad")(uri "${KIPRJMOD}/../libraries/SODIMM/SODIMM.kicad_sym")(options "")(descr ""))
   (lib (name "USB2514B")(type "KiCad")(uri "${KIPRJMOD}/../libraries/USB2514B/USB2514B.kicad_sym")(options "")(descr "Microchip USB2514B/M2 USB 2.0 hub controller"))
   (lib (name "ECS_240_18_33Q_DS")(type "KiCad")(uri "${KIPRJMOD}/../libraries/ECS-240-18-33Q-DS/ECS-240-18-33Q-DS.kicad_sym")(options "")(descr "ECS 24MHz crystal"))
+  (lib (name "MCP25625T_E_ML")(type "KiCad")(uri "${KIPRJMOD}/../libraries/MCP25625T_E_ML/MCP25625T_E_ML.kicad_sym")(options "")(descr "Microchip MCP25625 CAN controller/transceiver"))
 )

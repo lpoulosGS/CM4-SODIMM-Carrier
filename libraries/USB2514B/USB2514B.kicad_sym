@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Footprint" "USB2514B:SQFN36_6X6_MCH"
-			(at 0 0 0)
+			(at 59.436 3.048 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Datasheet" "USB2514B/M2"
-			(at 0 0 0)
+			(at 33.02 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -101,7 +101,7 @@
 		(symbol "USB2514B_M2_0_1"
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -50.8)
+					(xy 40.64 5.08) (xy 40.64 -50.8)
 				)
 				(stroke
 					(width 0.127)
@@ -113,7 +113,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -50.8) (xy 114.3 -50.8)
+					(xy 40.64 -50.8) (xy 114.3 -50.8)
 				)
 				(stroke
 					(width 0.127)
@@ -125,7 +125,7 @@
 			)
 			(polyline
 				(pts
-					(xy 114.3 5.08) (xy 7.62 5.08)
+					(xy 114.3 5.08) (xy 40.64 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -148,7 +148,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 0 0)
+				(at 33.02 0 0)
 				(length 7.62)
 				(name "USBDM_DN1/PRT_DIS_M1"
 					(effects
@@ -166,7 +166,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -2.54 0)
+				(at 33.02 -2.54 0)
 				(length 7.62)
 				(name "USBDP_DN1/PRT_DIS_P1"
 					(effects
@@ -184,7 +184,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -5.08 0)
+				(at 33.02 -5.08 0)
 				(length 7.62)
 				(name "USBDM_DN2/PRT_DIS_M2"
 					(effects
@@ -202,7 +202,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -7.62 0)
+				(at 33.02 -7.62 0)
 				(length 7.62)
 				(name "USBDP_DN2/PRT_DIS_P2"
 					(effects
@@ -220,7 +220,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -10.16 0)
+				(at 33.02 -10.16 0)
 				(length 7.62)
 				(name "VDDA33"
 					(effects
@@ -238,7 +238,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -12.7 0)
+				(at 33.02 -12.7 0)
 				(length 7.62)
 				(name "USBDM_DN3/PRT_DIS_M3"
 					(effects
@@ -256,7 +256,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -15.24 0)
+				(at 33.02 -15.24 0)
 				(length 7.62)
 				(name "USBDP_DN3/PRT_DIS_P3"
 					(effects
@@ -274,7 +274,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -17.78 0)
+				(at 33.02 -17.78 0)
 				(length 7.62)
 				(name "USBDM_DN4/PRT_DIS_M4"
 					(effects
@@ -292,7 +292,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -20.32 0)
+				(at 33.02 -20.32 0)
 				(length 7.62)
 				(name "USBDP_DN4/PRT_DIS_P4"
 					(effects
@@ -310,7 +310,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -22.86 0)
+				(at 33.02 -22.86 0)
 				(length 7.62)
 				(name "VDDA33"
 					(effects
@@ -328,7 +328,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -25.4 0)
+				(at 33.02 -25.4 0)
 				(length 7.62)
 				(name "TEST"
 					(effects
@@ -346,7 +346,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -27.94 0)
+				(at 33.02 -27.94 0)
 				(length 7.62)
 				(name "PRTPWR1/BC_EN1"
 					(effects
@@ -364,7 +364,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -30.48 0)
+				(at 33.02 -30.48 0)
 				(length 7.62)
 				(name "OCS_N1"
 					(effects
@@ -382,7 +382,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -33.02 0)
+				(at 33.02 -33.02 0)
 				(length 7.62)
 				(name "CRFILT"
 					(effects
@@ -400,7 +400,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -35.56 0)
+				(at 33.02 -35.56 0)
 				(length 7.62)
 				(name "VDD33"
 					(effects
@@ -418,7 +418,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -38.1 0)
+				(at 33.02 -38.1 0)
 				(length 7.62)
 				(name "PRTPWR2/BC_EN2"
 					(effects
@@ -436,7 +436,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -40.64 0)
+				(at 33.02 -40.64 0)
 				(length 7.62)
 				(name "OCS_N2"
 					(effects
@@ -454,7 +454,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -43.18 0)
+				(at 33.02 -43.18 0)
 				(length 7.62)
 				(name "PRTPWR3/BC_EN3"
 					(effects

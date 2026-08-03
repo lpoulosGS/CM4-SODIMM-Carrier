@@ -127,7 +127,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "USB.kicad_sch"
 			(at 130.81 71.7046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -188,6 +188,52 @@
 			(project "carrier"
 				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 90.17)
+		(size 33.02 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a1c8faa5-68de-4934-8c16-46bbec90804e")
+		(property "Sheetname" "CAMPHY"
+			(at 129.54 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "new.kicad_sch"
+			(at 129.54 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe"
+					(page "8")
 				)
 			)
 		)
