@@ -25,3 +25,7 @@ fp-info-cache
 # Backup directories
 *-backups/
 PCB/.history/
+_restore_backup_*/
+
+# Stray duplicate files from KiCad "restore backup" prompts
+* - Copy.kicad_sch

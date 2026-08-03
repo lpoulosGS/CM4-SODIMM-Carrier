@@ -1118,13 +1118,17 @@
         "uuid": "f52509e6-8053-454c-b8e9-3e2670c5a5fe"
       }
     ],
-    "used_designators": "D1-4,#PWR1-2,#PWR4-5,#PWR7-9,#PWR11-13,#PWR21,#PWR23-28,#PWR30-31,#PWR38-52,#PWR103,#PWR105-124,R1,R10-21,R24-25,R62-76,Module1-3,J1-3,C1-2,C4-7,C11,C20-28,SD_PWR1,Q2-9,SW1-2,TP1-4,U4-5",
+    "used_designators": "D1-4,#PWR1-16,#PWR21,#PWR23-28,#PWR30-31,#PWR38-52,#PWR103-124,R1,R10-25,R28,R62-76,Module1-3,J1-3,C1-12,C14,C16-17,C20-28,SD_PWR1,Q2-9,SW1-2,TP1-4,U1,U4-5,Y1",
     "variants": []
   },
   "sheets": [
     [
       "f52509e6-8053-454c-b8e9-3e2670c5a5fe",
       "carrier"
+    ],
+    [
+      "91d2ead8-0c11-4eda-a805-759438b3b1da",
+      "USB_HUB"
     ],
     [
       "fc4c71a5-1008-4ac4-98db-57c838c57d91",

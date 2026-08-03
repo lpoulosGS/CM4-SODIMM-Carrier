@@ -101,6 +101,52 @@
 		)
 	)
 	(sheet
+		(at 130.81 34.29)
+		(size 44.45 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "91d2ead8-0c11-4eda-a805-759438b3b1da")
+		(property "Sheetname" "USB_HUB"
+			(at 130.81 33.5784 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 130.81 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 24.13 121.92)
 		(size 38.1 38.1)
 		(exclude_from_sim no)
